@@ -17,32 +17,32 @@
         </p>
         <div class="col-md-2">
           <button type="button" class="btn btn-primary btn-block fw-bold">
-            Primary Button 1
+            Button 1
           </button>
         </div>
         <div class="col-md-2">
           <button type="button" class="btn btn-secondary btn-block fw-bold">
-            Secondary Button 2
+            Button 2
           </button>
         </div>
         <div class="col-md-2">
           <button type="button" class="btn btn-success btn-block fw-bold">
-            Success Button 3
+            Button 3
           </button>
         </div>
         <div class="col-md-2">
           <button type="button" class="btn btn-danger btn-block fw-bold">
-            Danger Button 4
+            Button 4
           </button>
         </div>
         <div class="col-md-2">
           <button type="button" class="btn btn-warning btn-block fw-bold">
-            Warning Button 5
+            Button 5
           </button>
         </div>
         <div class="col-md-2">
           <button type="button" class="btn btn-info btn-block fw-bold">
-            Info Button 6
+            Button 6
           </button>
         </div>
       </div>
@@ -178,8 +178,23 @@
             There is Forms Input thats Sizing set to small by Bootstrap
           </p>
           <div class="input-group input-group-sm mb-3 p-5">
-            <span class="input-group-text" id="inputGroup-sizing-sm ">Small</span>
-            <input type="text" class="form-control bg-danger-subtle" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                <div class="container">
+              <form>
+                <div class="mb-3 input-group-sm">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control bg-danger-subtle" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3 input-group-sm">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control bg-danger-subtle" id="email" placeholder="name@example.com">
+                </div>
+                <div class="mb-3 input-group-sm">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control bg-danger-subtle" id="message" rows="3" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="input-group-sm btn btn-primary">Submit</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>  
